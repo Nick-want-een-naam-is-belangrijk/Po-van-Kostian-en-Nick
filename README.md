@@ -1,11 +1,6 @@
 # Po-van-Kostian-en-Nick
 
-Dit is het Po van Kostiantyn en Nick
-
-kaas
-lolololol
-Je kunt me niet stoppen
-puinguin
+Dit is het Po van Kostiantyn en Nick <br><br><br>
 
 this is a change
 
