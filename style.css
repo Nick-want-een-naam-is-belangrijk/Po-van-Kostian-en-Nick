@@ -1,1 +1,49 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@900&display=swap');
+* {
+  	font-family: "Doto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+	font-variation-settings:
+  		"ROND" 0;
+	margin: 0;
+}
+article {
+	padding: 30px;
+	font-size: 25px;
+}
+article h1 {
+	font-size: 40px;
+	text-align: center;
+}
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #FFFFFF;
+ 	background-color: #06D001;
+ 	padding: 20px;
+}
+header a {
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: px;
+	border-radius: 4px;
+	color: #FFFFFF;
+}
+header a:hover {
+ 	background-color: #10f70a;
+}
+header a.active {
+ 	background-color: #bbff38;
+}
+#header-right {
+ 	float: right;
+}
+#level-name {
+	font-size: 50px;
+	display: inline;
+	padding: 40px;
+}
