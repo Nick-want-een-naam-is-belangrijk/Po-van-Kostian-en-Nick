@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PO van Kostian en Nick</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	.button {
+		background-color: #FFF;
+		border: none;
+		border-radius: 4px;
+		padding: 8px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 25px;
+		cursor: pointer;
+	}
+	.button:hover {background-color: #a8ff00;}
+	</style>
+</head>
+<header>
+	<h1>iwannabethecalculator</h1>
+	<div class=header-right>
+		<a href="index.html">index</a>
+		<a class="active" href="levels.html">levels</a>
+	</div>
+</header>
+<script>
+function setURL(url){
+    document.getElementById('iframe').src = url;
+}
+</script>
+<body><article>
+	<iframe id="iframe" frameBorder="0" style="float: right;" scrolling="no" width="900" height="800" src="levels/beach.html"></iframe>
+	<ol reversed>
+	<li><input type="button" value="beach" class=button onclick="setURL('levels/beach.html')" /></li>
+	<li><input type="button" value="Jungle Easy" class=button onclick="setURL('levels/jungleeasy.html')" /></li>
+	</ol>
+</article></body>
+</html>
