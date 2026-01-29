@@ -8,6 +8,7 @@
 		background-color: #FFF;
 		border: none;
 		border-radius: 4px;
+		margin: 4px;
 		padding: 8px;
 		text-align: center;
 		text-decoration: none;
@@ -15,7 +16,19 @@
 		font-size: 25px;
 		cursor: pointer;
 	}
-	.button:hover {background-color: #a8ff00;}
+	.button:hover {color: #674ea7;}
+	h2 {
+		font-size: 25px;
+		padding: 10px;
+		color: #674ea7;
+		margin-left: -50px;
+	}
+	span {
+		border-radius: 4px;
+		padding: 8px 16px;
+		color: #FFF;
+		margin: 4px;
+	}
 	</style>
 </head>
 <header>
@@ -31,26 +44,36 @@ function setURL(url){
 }
 </script>
 <body><article>
-	<iframe id="iframe" frameBorder="0" style="float: right;" scrolling="no" width="900" height="800" src="levels/beach.html"></iframe>
+	<iframe id="iframe" frameBorder="0" style="float: right;" scrolling="no" width="750" height="1000" src="levels/beach.html"></iframe>
 	<ol reversed>
+	<h2>——— Effortless (☆)</h2>
 	<li><input type="button" value="beach" class=button onclick="setURL('levels/beach.html')" /></li>
 	<li><input type="button" value="Jungle Easy" class=button onclick="setURL('levels/jungleeasy.html')" /></li>
+	<h2>——— Beginner (☆☆)</h2>
 	<li><input type="button" value="mystic" class=button onclick="setURL('levels/mystic.html')" /></li>
+	<h2>——— Intermediate (☆☆☆)</h2>
 	<li><input type="button" value="Mountain" class=button onclick="setURL('levels/mountain.html')" /></li>
-	<li><input type="button" value="Forest" class=button onclick="setURL('levels/forest.html')" /></li>
+	<li><span style="background-color: #6d9eeb;">FHC</span><input type="button" value="Forest" class=button onclick="setURL('levels/forest.html')" /></li>
+	<h2>——— Advanced (☆☆☆☆)</h2>
 	<li><input type="button" value="misty" class=button onclick="setURL('levels/misty.html')" /></li>
 	<li><input type="button" value="Bad ground?" class=button onclick="setURL('levels/badground.html')" /></li>
 	<li><input type="button" value="Cave" class=button onclick="setURL('levels/cave.html')" /></li>
 	<li><input type="button" value="Something New" class=button onclick="setURL('levels/somethingnew.html')" /></li>
 	<li><input type="button" value="Toxic ground" class=button onclick="setURL('levels/toxicground.html')" /></li>
-	<li><input type="button" value="Aether" class=button onclick="setURL('levels/aether.html')" /></li>
+	<h2>——— Expert (☆☆☆☆☆★)</h2>
+	<li><span style="background-color: #6d9eeb;">FHC</span><span style="background-color: #a64d79;">FHM</span><input type="button" value="Aether" class=button onclick="setURL('levels/aether.html')" /></li>
 	<li><input type="button" value="faucet" class=button onclick="setURL('levels/faucet.html')" /></li>
+	<h2>——— Master (☆☆☆☆☆★★)</h2>
 	<li><input type="button" value="it's all the same" class=button onclick="setURL('levels/itsallthesame.html')" /></li>
-	<li><input type="button" value="the snow cave" class=button onclick="setURL('levels/thesnowcave.html')" /></li>
-	<li><input type="button" value="realmap" class=button onclick="setURL('levels/realmap.html')" /></li>
-	<li><input type="button" value="dead factory" class=button onclick="setURL('levels/deadfactory.html')" /></li>
-	<li><input type="button" value="Hell" class=button onclick="setURL('levels/hell.html')" /></li>
-	<li><input type="button" value="jungle finale finale" class=button onclick="setURL('levels/junglefinalefinale.html')" /></li>
+	<li><span style="background-color: #4a86e8;">HC</span><input type="button" value="the snow cave" class=button onclick="setURL('levels/thesnowcave.html')" /></li>
+	<h2>——— Grandmaster (☆☆☆☆☆★★★)</h2>
+	<li><span style="background-color: #674ea7;">UC</span><input type="button" value="realmap" class=button onclick="setURL('levels/realmap.html')" /></li>
+	<li><span style="background-color: #674ea7;">UC</span><span style="background-color: #a64d79;">FHM</span><input type="button" value="dead factory" class=button onclick="setURL('levels/deadfactory.html')" /></li>
+	<h2>——— Godlike (☆☆☆☆☆★★★★)</h2>
+	<p style="margin-left: 2px; padding: 8px;">No levels here yet!</p>
+	<h2>——— Impossible (☮)</h2>
+	<li><span style="background-color: #674ea7;">UC</span><span style="background-color: #a64d79;">FHM</span><input type="button" value="Hell" class=button onclick="setURL('levels/hell.html')" /></li>
+	<li><span style="background-color: #674ea7;">UC</span><span style="background-color: #741b47;">HM</span><input type="button" value="jungle finale finale" class=button onclick="setURL('levels/junglefinalefinale.html')" /></li>
 	</ol>
 </article></body>
 </html>
