@@ -21,7 +21,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	color: #FFFFFF;
- 	background-color: #6216ab;
+ 	background-color: rgb(176,185,212);
  	padding: 20px;
 }
 header a {
@@ -34,10 +34,10 @@ header a {
 	color: #FFF;
 }
 header a:hover {
- 	background-color: rgba(101, 184, 104, 0.5);
+ 	background-color: rgb(0,51,3);
 }
 header a.active {
- 	background-color: #65b868;
+ 	background-color: rgb(0,107,32);
 }
 #header-right {
  	float: right;
