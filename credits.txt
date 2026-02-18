@@ -1,0 +1,5 @@
+credits:
+
+- hnafanatic04/iwannabetheowner (level editor and game): https://iwannabetheowner.github.io/iwannabetheeditor/
+- geeksforgeeks (bounce): https://www.geeksforgeeks.org/css/how-to-create-a-bounce-in-and-out-on-scroll-effect-using-css/
+- w3schools hover: https://www.w3schools.com/howto/howto_css_display_element_hover.asp
