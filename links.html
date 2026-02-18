@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PO van Kostian en Nick</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+	input {
+    		transform: scale(1.25);
+	}
+	.link {
+		text-decoration: none;
+	}
+	</style>
+</head>
+<script>
+const ans = ["https://my.numworks.com/python/hnafanatic04/iwannabethecalculator","https://my.numworks.com/python/hnafanatic04/iwbtctimer","https://my.numworks.com/python/hnafanatic04/iwbtcrated","https://my.numworks.com/python/hnafanatic04/iwbtctimerrated"]
+var tot = 0;
+function update(feature) {
+    if(feature.checked == true){
+        tot += parseInt(feature.value);
+    }
+    if(feature.checked == false){
+        tot -= parseInt(feature.value);
+    }
+    document.getElementById('link1').href = ans[tot];
+    document.getElementById('link1').innerText = ans[tot];
+}
+</script>
+<header>
+	<h1>iwannabethecalculator</h1>
+	<div class=header-right>
+		<a href="index.html">index</a>
+		<a class="active" href="links.html">links</a>
+		<a href="levels.html">levels</a>
+		<a href="credits.html">credits/updates</a>
+		<a href="soggycat.html">soggy cat!!</a>
+	</div>
+</header>
+  <body><article>
+	<h1><b>Links</b></h1><br>
+	<p>This is the place to get the game, the editor and more! Here below is the link to the main game with all the levels, with a toggle:</p><br>
+&nbsp;&nbsp;<input name="timer" type="checkbox" value="1" onchange="update(this);" autocomplete="off"> Include timer<br>&nbsp;&nbsp;<input name="rated" type="checkbox" value="2" onchange="update(this);" autocomplete="off"> Include all rated levels<br>
+<br><a id='link1' class="link" href="https://my.numworks.com/python/hnafanatic04/iwannabethecalculator">https://my.numworks.com/python/hnafanatic04/iwannabethecalculator</a><br>
+	<br><h3><b>Other links</b></h3><br>
+	<p>Random version: <a class="link" href="https://my.numworks.com/python/hnafanatic04/randomiwbtc">https://my.numworks.com/python/hnafanatic04/randomiwbtc</a><br>Document: <a class="link" href="https://docs.google.com/document/d/1ZTAJypj1FadNev07EyD04AU3g6vomp8wcgx7cJcwd7I">https://docs.google.com/document/d/1ZTAJypj1FadNev07EyD04AU3g6vomp8wcgx7cJcwd7I</a><br>Level editor: <a class="link" href="https://iwannabetheowner.github.io/iwannabetheeditor">https://iwannabetheowner.github.io/iwannabetheeditor</a></p>
+  </article></body>
+</html>
+
