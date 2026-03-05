@@ -3,6 +3,7 @@
 <head>
 	<title>PO van Kostian en Nick</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="seal.jpg">
 	<style>
 	.button {
 		background-color: #FFF;
@@ -29,14 +30,6 @@
 		color: #FFF;
 		margin: 4px;
 	}
-	ol {
-		margin-botton: -30px;
-		border-radius: 8px;
-		overflow-y: scroll;
-		height: 930px;
-		padding: 10px 0px;
-		padding-left: 60px;
-	}
 	</style>
 </head>
 <header>
@@ -46,7 +39,7 @@
 		<a href="links.html">links</a>
 		<a class="active" href="levels.html">levels</a>
 		<a href="credits.html">credits/updates</a>
-		<a href="soggycat.html">soggy cat!!</a>
+		<a href="uni.html">uni!!</a>
 	</div><!-- hiermee kun je van het ene tablat naar het andere gaan --!>
 </header>
 <script>
@@ -57,9 +50,19 @@ function setURL(url){
 <body><article>
 	<h1><b>Tags</b></h1><br>
 	<p>To give more information about a level and whether they’ve been completed or not, tags were addedto levels that are explained here:</p><br><br>
-	<p><span style="background-color: #674ea7;">UC</span>  Uncompleted</p><br>
-	<p><span style="background-color: #674ea7;">UC</span>  Uncompleted</p><br>
-	<iframe id="iframe" frameBorder="0" style="float: right;" scrolling="no" width="750" height="900" src="levels/beach.html"></iframe>
+	<p><span style="background-color: #674ea7;">UC</span>  Uncompleted</p>
+	<p style="margin-top: 24px;"><span style="background-color: #741b47;">HM</span>  Hardest made</p>
+	<p style="margin-top: 24px;"><span style="background-color: #a64d79;">FHM</span>  Former hardest made</p>
+	<p style="margin-top: 24px;"><span style="background-color: #4a86e8;">HC</span>  Hardest completed</p>
+	<p style="margin-top: 24px;"><span style="background-color: #6d9eeb;">FHC</span>  Former hardest completed</p><br>
+	<h1><b>Badges</b></h1><br>
+	<p>Badges can be given to levels to show when a level is considered of decent quality. Not all levels get them though.</p><br>
+	<p>☁) Simple badge (decent gp/deco)</p>
+	<p>✿) Super badge (excellent gp/deco)</p><br>
+	<h1><b>Levels</h1></b><br>
+	<p>Level submission can be done here: <a href="https://forms.gle/yP7XWohpyhthpSWS8" style="text-decoration: none;">https://forms.gle/yP7XWohpyhthpSWS8</a></p>
+	<p>Below is each level that got submitted and accepted:</p><br>
+	<iframe id="iframe" frameBorder="0" style="float: right;" scrolling="no" width="750" height="1000" src="levels/beach.html"></iframe>
 	<ol reversed>
 	<h2>——— Effortless (☆)</h2>
 	<li><input type="button" value="beach" class=button onclick="setURL('levels/beach.html')" /></li>
@@ -91,5 +94,9 @@ function setURL(url){
 	<li><span style="background-color: #674ea7;">UC</span><span style="background-color: #a64d79;">FHM</span><input type="button" value="Hell" class=button onclick="setURL('levels/hell.html')" /></li>
 	<li><span style="background-color: #674ea7;">UC</span><span style="background-color: #741b47;">HM</span><input type="button" value="jungle finale finale" class=button onclick="setURL('levels/junglefinalefinale.html')" /></li>
 	</ol>
-</article></body>
+  </article>
+<div style="position: relative;"> <!-- This makes the footer work, it's not useless! --!>
+	<img src="footer.png" style="position: absolute; bottom: 0; width: 100%; top: 0;"></img>
+</div>
+</body>
 </html>
