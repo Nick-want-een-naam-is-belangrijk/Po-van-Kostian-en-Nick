@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@300&display=swap');
 * {
   	font-family: "Playpen Sans", cursive;
 	font-optical-sizing: auto;
@@ -7,6 +8,12 @@
 	font-variation-settings:
   		"wdth" 100;
 	margin: 0;
+}
+.dropdown-content {
+	font-family: "Cascadia Code", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
 }
 b {
 	font-weight: 600;
